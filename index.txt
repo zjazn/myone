@@ -4,3 +4,4 @@ git commit -m  commit 提交暂存区的内容到仓库， -m 当前提交的提
 git diff  文件名   查看文件差异
 git log 查看所有commit信息
 git reflog 查看所有操作
+git reset --hard HEAD^  一个^ 代表回退一次提交  也可以用commit id 替代HEAD
